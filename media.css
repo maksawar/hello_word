@@ -1,0 +1,65 @@
+/*Стили для мобильнвх устройств*/
+
+@media (max-width:650px) {
+	.menu {
+		position: static;
+	}
+
+	.menu a {
+		display: block;
+		padding-bottom: 25px;
+		padding-right: 30px;
+		padding-top: 15px;
+		border-bottom: solid gray 1px;
+	}
+
+	h1 {
+		font-size: 30px;
+	}
+
+	.company-content {
+		display: block;
+	}
+
+	.company img {
+		width: 100%;
+	}
+
+	.company-text {
+		padding-right: 15px;
+		text-align: left;
+	}
+
+	.name {
+		width: 96%;
+		margin: 0;
+		padding: 2%;
+	}
+
+	.me {
+		width: 100%;
+		display: block;
+		padding: 15px 0;
+		text-align: center;
+	}
+
+	.person {
+		display: block;
+	}
+
+	.tarif {
+		width: 100%;
+		display: block;
+	}
+
+	.container-tarif {
+		width: 90%;
+		margin-left: 10%;
+	}
+
+	.contact input[type="submit"] {
+		width: 100%;
+		margin: 0;
+	}
+
+}
